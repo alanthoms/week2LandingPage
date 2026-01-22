@@ -113,13 +113,12 @@ nav a:hover {
 .background {
   height: 100vh;
   background-image:
-    linear-gradient(rgba(5, 10, 40, 0.95), rgba(5, 10, 40, 0.85)),
+    linear-gradient(rgba(5, 10, 40, 0.95), rgba(1, 5, 25, 0.85)),
     url("https://images.pexels.com/photos/2897132/pexels-photo-2897132.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   margin: 0px;
-  padding-top: 70px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -130,6 +129,73 @@ nav a:hover {
 .background h1 {
   color: whitesmoke;
   font-family: "Monsieur La Doulaise", cursive;
-  font-weight: 900;
+  font-weight: 500;
   font-size: 10rem;
+}
+
+.background p {
+  color: rgb(225, 232, 250);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.points {
+  padding-top: 4rem;
+  background-color: rgb(255, 255, 255);
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  transition: 0.3s ease;
+  box-shadow: 1px 4px 8px 0 rgba(206, 188, 188, 0.2);
+  transition: 0.3s ease-in-out;
+  border-radius: 5px; /* 5px rounded corners */
+  width: 300px;
+  transform: scale(0.9);
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  transform: scale(1);
+}
+
+/* Add rounded corners to the top left and the top right corner of the image */
+.card img {
+  border-radius: 5px 5px 0 0;
+  width: 55%;
+  height: auto;
+  object-fit: cover;
+}
+
+.container {
+  padding: 10px 16px;
+  width: 45%;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+}
+
+.projectcards {
+  display: flex;
+  gap: 0px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 0px 2rem;
+}
+
+.projectcards p,
+h3 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+footer {
+  background-color: #13163d;
+  color: white;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
