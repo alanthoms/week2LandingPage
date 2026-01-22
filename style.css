@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+
 /* 1. Use a more-intuitive box-sizing model */
 *,
 *::before,
@@ -95,11 +98,8 @@ nav a {
 }
 
 /* Change background on mouse-over */
-
 main {
-  margin-top: 70px; /* Add a top margin to avoid content overlay */
-  height: 100vh;
-  padding: 20px;
+  margin-top: 0;
 }
 
 nav a:hover {
@@ -108,4 +108,28 @@ nav a:hover {
   transform: translateX(5px); /* small slide effect on hover */
   font-weight: 500;
   text-shadow: 0px 0px 2px#fff;
+}
+
+.background {
+  height: 100vh;
+  background-image:
+    linear-gradient(rgba(5, 10, 40, 0.95), rgba(5, 10, 40, 0.85)),
+    url("https://images.pexels.com/photos/2897132/pexels-photo-2897132.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0px;
+  padding-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.background h1 {
+  color: whitesmoke;
+  font-family: "Monsieur La Doulaise", cursive;
+  font-weight: 900;
+  font-size: 10rem;
 }
