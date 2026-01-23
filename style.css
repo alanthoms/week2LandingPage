@@ -293,11 +293,13 @@ h4 {
   font-size: 7rem;
 }
 
-.contactform h1 {
+.contactform h1,
+.signup h1 {
   padding-top: 3rem;
   font-family: sans-serif;
   font-size: 5rem;
 }
+
 form {
   display: flex;
   flex-direction: column;
@@ -341,3 +343,7 @@ input:valid {
 input:required:invalid {
   border-color: red;
 }
+
+.signup {
+  height: 100vh;
+  padding-top: 54
