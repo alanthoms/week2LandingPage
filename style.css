@@ -346,4 +346,5 @@ input:required:invalid {
 
 .signup {
   height: 100vh;
-  padding-top: 54
+  padding-top: 4rem;
+}
