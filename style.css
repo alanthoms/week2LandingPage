@@ -294,7 +294,7 @@ h4 {
 }
 
 .contactform h1,
-.signup h1 {
+.signupform h1 {
   padding-top: 3rem;
   font-family: sans-serif;
   font-size: 5rem;
@@ -344,7 +344,7 @@ input:required:invalid {
   border-color: red;
 }
 
-.signup {
+.signupsection {
   height: 100vh;
   padding-top: 4rem;
 }
